@@ -879,9 +879,9 @@ function Contact() {
             <div className="absolute inset-0" style={{ backgroundImage: "radial-gradient(circle at 30% 40%, rgba(11,94,215,0.08), transparent 60%), radial-gradient(circle at 70% 70%, rgba(58,175,169,0.08), transparent 60%)" }} />
           </div>
           <div className="mt-6 space-y-4 text-sm">
-            <p className="flex items-center gap-3 text-slate-600"><Mail size={16} color={BLUE} /> hello@quickparchi.in</p>
-            <p className="flex items-center gap-3 text-slate-600"><Phone size={16} color={BLUE} /> +91 98765 43210</p>
-            <p className="flex items-center gap-3 text-slate-600"><MapPin size={16} color={BLUE} /> Quick Parchi HQ, Boring Road, Patna, Bihar 800001</p>
+            <p className="flex items-center gap-3 text-slate-600"><Mail size={16} color={BLUE} /> quickparchi@gmail.com</p>
+            <p className="flex items-center gap-3 text-slate-600"><Phone size={16} color={BLUE} /> +91 87899938635</p>
+            <p className="flex items-center gap-3 text-slate-600"><MapPin size={16} color={BLUE} /> Upcoming</p>
           </div>
         </div>
         <div className="bg-white border border-slate-200 rounded-2xl p-6">
