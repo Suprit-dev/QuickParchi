@@ -33,10 +33,10 @@ const DEPARTMENTS = ["General Medicine", "Cardiology", "Orthopedics", "Pediatric
 const HOSPITALS = [
   { id: 1, name: "Sanjeevani Government Hospital", type: "Government", city: "Patna", rating: 4.3, wait: 22, depts: ["General Medicine", "Orthopedics", "Pediatrics"], color: TEAL },
   { id: 2, name: "Apex Multispeciality Hospital", type: "Private", city: "Patna", rating: 4.7, wait: 12, depts: ["Cardiology", "Neurology", "Dermatology"], color: BLUE },
-  { id: 3, name: "Kochas Community Health Centre", type: "Government", city: "Kochas", rating: 4.0, wait: 30, depts: ["General Medicine", "Gynecology", "ENT"], color: TEAL },
-  { id: 4, name: "Lifeline Care Hospital", type: "Private", city: "Gaya", rating: 4.6, wait: 15, depts: ["Cardiology", "Orthopedics", "ENT"], color: BLUE },
-  { id: 5, name: "Nirmal Nursing Home", type: "Private", city: "Bhojpur", rating: 4.2, wait: 18, depts: ["Pediatrics", "Gynecology", "General Medicine"], color: BLUE },
-  { id: 6, name: "District Government Hospital", type: "Government", city: "Rohtas", rating: 3.9, wait: 35, depts: ["General Medicine", "Orthopedics", "Neurology"], color: TEAL },
+  { id: 3, name: "Community Health Centre", type: "Government", city: "Varanasi", rating: 4.0, wait: 30, depts: ["General Medicine", "Gynecology", "ENT"], color: TEAL },
+  { id: 4, name: "Lifeline Care Hospital", type: "Private", city: "Kanpur", rating: 4.6, wait: 15, depts: ["Cardiology", "Orthopedics", "ENT"], color: BLUE },
+  { id: 5, name: "Nirmal Nursing Home", type: "Private", city: "Lucknow", rating: 4.2, wait: 18, depts: ["Pediatrics", "Gynecology", "General Medicine"], color: BLUE },
+  { id: 6, name: "District Government Hospital", type: "Government", city: "Delhi", rating: 3.9, wait: 35, depts: ["General Medicine", "Orthopedics", "Neurology"], color: TEAL },
 ];
 
 const DOCTORS = [
@@ -45,7 +45,7 @@ const DOCTORS = [
   { id: 3, name: "Dr. Meena Kumari", spec: "Pediatrician", exp: 15, hospital: "Sanjeevani Government Hospital", rating: 4.7, next: "Tomorrow, 10:00 AM" },
   { id: 4, name: "Dr. Farhan Ali", spec: "Dermatologist", exp: 7, hospital: "Apex Multispeciality Hospital", rating: 4.4, next: "Today, 6:15 PM" },
   { id: 5, name: "Dr. Sunita Devi", spec: "Gynecologist", exp: 18, hospital: "Nirmal Nursing Home", rating: 4.9, next: "Tomorrow, 9:30 AM" },
-  { id: 6, name: "Dr. Vikas Ranjan", spec: "General Physician", exp: 6, hospital: "Kochas Community Health Centre", rating: 4.1, next: "Today, 3:45 PM" },
+  { id: 6, name: "Dr. Vikas Ranjan", spec: "General Physician", exp: 6, hospital: "pCommunity Health Centre", rating: 4.1, next: "Today, 3:45 PM" },
 ];
 
 function Counter({ to, suffix = "", duration = 1600 }) {
@@ -1021,10 +1021,10 @@ function Profile({ go, ctx = {} }) {
       {tab === "Your Data" && (
         <div className="space-y-3">
           {[
-            ["Full name", "Priya Kumari"],
-            ["Mobile number", "+91 98765 43210"],
-            ["Email", "priya.kumari@example.com"],
-            ["Date of birth", "14 Mar 1994"],
+            ["Full name", "Suraj Kumar"],
+            ["Mobile number", "+91 8789938635"],
+            ["Email", "Suraj.kumar@example.com"],
+            ["Date of birth", "07 Oct 2004"],
             ["Blood group", "B+"],
             ["Home city", "Patna, Bihar"],
           ].map(([label, val]) => (
